@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back {
+    background-image: url(img/star-wars-zvezdnye-voyny-4831.jpg);
+    background-size: cover;
+}
+.logo {
+    padding-left: 390px;
+}
+.person{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 800px;
+    margin-left: 90px;
+    border:20px solid #DB822E;
+    box-shadow: inset 0 0 8px #DB822E, 0 0 8px #DB822E;
+    border-radius: 50px;
+    display: flex;
+    padding: 70px 30px 0 30px;
+   
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.person div {
+    padding: 10px;
+    font-size: 16px;
+}
+.ButNext {
+    padding: 20px;
+    padding-left: 35%;
+}
+.ButNext button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    margin-left: 10px;
+    border: none;
+}
